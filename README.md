@@ -12,7 +12,7 @@
 - vite-plugin-handlebars
 - GitHub Pages
 
-## ディレクトリ構成
+# ディレクトリ構成
 
 ```sh
 /
