@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- pageDataのtitle情報を出力 -->
+    <title>{{title}}</title>
+
+    <!-- CSSの読み込みを追加 -->
+    <link rel="stylesheet" href="./scss/style.scss">
+  </head>
+
+  <body>
+    <!-- header.htmlの読み込み -->
+    {{> header}}
+
+    <p class="text">ここにコンテンツ</p>
+    <p>
+      ここにテキストが入ります。<br>
+      ここにテキストが入ります。
+    </p>
+    <figure>
+      <img src="./assets/images/neko.jpg" alt="ねこちゃん">
+    </figure>
+    <form>
+      <input type="button" value="サイコロ" onClick="altRan2()">
+      <span id="sai">-</span>
+    </form>
+    <!-- footer.htmlの読み込み -->
+    {{> footer}}
+
+    <!-- type="module"が追加されているmain.jsのscriptタグ -->
+    <script type="module" src="./js/main.js"></script>
+
+    <!-- public内のJSを読み込む時はtype属性を省く普通の方法で書く -->
+    <script src="./assets/js/hoge.js"></script>
+  </body>
+</html>

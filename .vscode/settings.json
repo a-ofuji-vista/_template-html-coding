@@ -1,0 +1,16 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode", // 既定のフォーマッタを定義
+    "editor.formatOnSave": true, // 保存時に自動でコードフォーマットする
+
+    "scss.validate": false, // VSCodeの組み込みのCSS,SCSSの検証を無効化し、Stylelintとの検証の競合を回避
+    "stylelint.configFile": "./.stylelintrc.cjs", // 指定された拡張子のファイルに対して検証を有効
+    "stylelint.validate": ["css", "scss"], // stylelintによるvalidateを有効化
+    "[scss]": {
+        "editor.codeActionsOnSave": {
+            // 自動修正を保存時に自動的に適用するための設定
+            "source.fixAll.stylelint": "always"
+        },
+        "editor.defaultFormatter": "esbenp.prettier-vscode", // 既定のフォーマッタを定義
+        "editor.formatOnSave": true // 保存時に自動でコードフォーマットする
+    }
+}

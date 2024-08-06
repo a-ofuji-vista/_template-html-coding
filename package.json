@@ -1,0 +1,24 @@
+{
+  "name": "template-html-coding",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "build": "vite build",
+    "git": "git add . && git commit && git push origin main"
+  },
+  "devDependencies": {
+    "@awmottaz/prettier-plugin-void-html": "^1.5.0",
+    "sass": "^1.72.0",
+    "stylelint": "^16.3.1",
+    "stylelint-config-recess-order": "^5.0.1",
+    "stylelint-config-recommended-scss": "^14.0.0",
+    "vite": "^5.2.0",
+    "vite-plugin-handlebars": "^2.0.0"
+  },
+  "dependencies": {
+    "create-vite": "^5.4.0"
+  }
+}
