@@ -94,6 +94,14 @@ npm install create-vite
 npm run dev
 ```
 
+**3. ファイルのビルド**
+
+問題が無ければ、以下のコマンドでファイルがビルドされる。（distフォルダに格納）
+
+```bash
+npm run build
+```
+
 # 関連・参考記事
 
 ## Githubリポジトリをローカル環境にクローンする方法
